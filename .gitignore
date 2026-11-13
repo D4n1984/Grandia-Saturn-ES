@@ -1,0 +1,15 @@
+﻿/trabajo/
+/isos/
+__pycache__/
+*.py[cod]
+*.iso
+*.bin
+*.cue
+*.img
+*.ccd
+*.mdf
+*.mds
+*.chd
+*.cdi
+*.nrg
+*.gdi
