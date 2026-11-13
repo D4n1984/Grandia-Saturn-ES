@@ -1,0 +1,48 @@
+{
+  "formato": "grandia-xdelta3-v1",
+  "disco": "D1",
+  "cue_origen": "CATALOG 0000000000000\nFILE \"{0}\" BINARY\n  TRACK 01 MODE1/2352\n    INDEX 01 00:00:00\nFILE \"{1}\" BINARY\n  TRACK 02 AUDIO\n    INDEX 00 00:00:00\n    INDEX 01 00:02:00\n",
+  "pistas": [
+    {
+      "size": 618496032,
+      "sha256": "da5719d2407e3cc63523b0e15ea3a6f710aa4e498fb7ed9162741b8ca5c8ddcd"
+    },
+    {
+      "size": 2121504,
+      "sha256": "c193e287276a63384a5cdcb533e78f10332a09b0dabcaeca3ea0bb23d541ca2f"
+    }
+  ],
+  "origen_concatenado": {
+    "size": 620617536,
+    "sha256": "34f503f5eb5607d6f35b86a58f392344899f3331d74d140965941c71fcec3d6f"
+  },
+  "destino": {
+    "size": 689465280,
+    "sha256": "f43f4c7209009abb227ddb582f2a617fa2cf5a66f6fd6f133cbbabd5c3539821"
+  },
+  "delta": {
+    "nombre": "D1.xdelta",
+    "identidad": {
+      "size": 134376236,
+      "sha256": "5d30ef95311696bb051d12aa822e69bf3550b0368ac6d682a8109cc9e95811e9"
+    }
+  },
+  "xdelta": {
+    "nombre": "xdelta3.exe",
+    "identidad": {
+      "size": 340992,
+      "sha256": "732980d52f9220dc81817ccdd0c295eadce8a0048a24c2a771a73f791ac824e9"
+    }
+  },
+  "chdman": {
+    "nombre": "chdman.exe",
+    "identidad": {
+      "size": 2684416,
+      "sha256": "8a74468e3b0879698835b57c3b58e88e5a51e4de73bee6ef755c28530b5b040f"
+    }
+  },
+  "salida_chd": "Grandia_ES_D1.chd",
+  "salida_bin": "Grandia_ES_D1.bin",
+  "salida_cue": "Grandia_ES_D1.cue",
+  "cue_destino": "FILE \"Grandia_ES_D1.bin\" BINARY\n  TRACK 01 MODE1/2352\n    INDEX 01 00:00:00\n  TRACK 02 AUDIO\n    INDEX 00 64:55:50\n    INDEX 01 64:57:50\n"
+}

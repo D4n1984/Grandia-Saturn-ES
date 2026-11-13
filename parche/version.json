@@ -1,0 +1,19 @@
+{
+  "version": "Completa01.1",
+  "autor": "D4n1984",
+  "release": "https://github.com/D4n1984/Grandia-Saturn-ES/releases/tag/completa01.1",
+  "instaladores": [
+    {
+      "nombre": "Grandia_Saturn_ES_Completa01_1_D1.zip",
+      "bytes": 146755947,
+      "digest": "sha256:c672d4272b8d0d06049e88161df1c9b37340933551d15911df5669cf9261fbc3",
+      "url": "https://github.com/D4n1984/Grandia-Saturn-ES/releases/download/completa01.1/Grandia_Saturn_ES_Completa01_1_D1.zip"
+    },
+    {
+      "nombre": "Grandia_Saturn_ES_Completa01_D2.zip",
+      "bytes": 129176618,
+      "digest": "sha256:c0c5b7eddd1f35f1351844be11c267f8bf03e98509a9ae7f9ba3f096a2273f0e",
+      "url": "https://github.com/D4n1984/Grandia-Saturn-ES/releases/download/completa01.1/Grandia_Saturn_ES_Completa01_D2.zip"
+    }
+  ]
+}

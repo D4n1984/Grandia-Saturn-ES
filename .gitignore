@@ -1,4 +1,4 @@
-﻿/trabajo/
+/trabajo/
 /isos/
 __pycache__/
 *.py[cod]
@@ -19,35 +19,6 @@ __pycache__/
 /AGENTS.md
 *.m3u
 
-# Solo codigo de produccion del parche; investigacion local excluida
-/herramientas/*
-!/herramientas/README.md
-!/herramientas/aplicar_parche_es.py
-!/herramientas/codificacion_es.py
-!/herramientas/comparar_text2_discos.py
-!/herramientas/comprobar_traduccion_es.py
-!/herramientas/construir_imagen_prueba_es.py
-!/herramientas/construir_imagen_recursos_es.py
-!/herramientas/construir_imagen_reubicada_es.py
-!/herramientas/crear_parche_es.py
-!/herramientas/derivar_text2_disco2_es.py
-!/herramientas/estado_traduccion_es.py
-!/herramientas/extraer_dialogos_ingles_traduccion.py
-!/herramientas/formatos_texto_es.py
-!/herramientas/integrar_lotes_es.py
-!/herramientas/inventariar_videos_bloques.py
-!/herramientas/perfiles_dialogos_ja_es.py
-!/herramientas/perfiles_residuales_es.py
-!/herramientas/perfiles_tablas_ja_es.py
-!/herramientas/preparar_puente_text2_es.py
-!/herramientas/preparar_recursos_traducidos_es.py
-!/herramientas/preparar_version_completa_es.py
-!/herramientas/prueba_menu_es.py
-!/herramientas/prueba_presentacion_es.py
-!/herramientas/reinsertar_guiones_es.py
-!/herramientas/reinsertar_tablas_menus_es.py
-!/herramientas/soporte_fuente8_es.py
-!/herramientas/soporte_fuente_disco2_es.py
-!/herramientas/verificar_imagen_recursos_es.py
-!/herramientas/verificar_lanzador_parche_es.py
-!/herramientas/verificar_parche_es.py
+# Elaboracion e investigacion privadas
+/herramientas/
+/docs/CONSTRUIR_PARCHE.md

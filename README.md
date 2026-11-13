@@ -24,11 +24,11 @@ Los archivos descargables contienen **únicamente el parche, sus herramientas y 
 
 No necesitas instalar Python ni aplicar antes la traducción inglesa. El instalador incluye Python portátil, xdelta3 y chdman. Comprueba las imágenes de entrada y salida, conserva los originales y rechaza una carpeta de salida que ya exista. La entrada del instalador es CUE/BIN; no admite directamente un CHD original.
 
-## Código fuente y construcción
+## Código del instalador del parche publicado
 
-El código propio del parche está en [herramientas/](herramientas/README.md): aplicación, empaquetado, reinserción, codificación española, comprobaciones, reconstrucción de disco y generación de los créditos iniciales.
+En [parche/](parche/README.md) están el código del aplicador y el lanzador de los instaladores publicados, junto con los manifiestos de ambos discos. Los parches ya generados (`.xdelta`), las herramientas portátiles y sus licencias están incluidos en los dos ZIP de la release.
 
-La [guía de construcción](docs/CONSTRUIR_PARCHE.md) explica las dependencias, los comandos y los datos locales necesarios. Las herramientas de instalación y empaquetado pueden usarse con las imágenes y herramientas indicadas allí. Reconstruir toda la traducción desde sus recursos requiere además la hoja editorial, los respaldos y los catálogos locales; esos materiales y las transcripciones del juego no se distribuyen en Git.
+Consulta las [instrucciones para aplicar el parche](docs/APLICAR_PARCHE.md). No se necesita construir ni generar ningún parche: descarga el instalador preparado del disco correspondiente y ejecútalo sobre tu original japonés.
 
 ## Estado de la traducción
 
@@ -36,7 +36,7 @@ La hoja de trabajo contiene **25.350 entradas traducidas y revisadas editorialme
 
 Esta entrega es una **candidata para pruebas**, no una versión con una partida completa certificada. Se han comprobado la reconstrucción binaria, los controles y parámetros, los archivos del disco, el audio y la generación de CHD. Quedan las pruebas en emulador de disposición visual, estabilidad, guardado y cambio de disco. La verificación binaria no acredita que todos los textos quepan en sus ventanas ni que todas las escenas funcionen.
 
-Este repositorio contiene el código del parche y sus instrucciones. Las imágenes del juego, BIOS, listas de reproducción, transcripciones y material de trabajo quedan fuera. Los instaladores preparados se publican en Releases.
+Este repositorio contiene el aplicador del parche publicado, sus manifiestos y las instrucciones de instalación. Las herramientas de elaboración, imágenes del juego, BIOS, listas de reproducción, transcripciones y material de trabajo quedan fuera. Los parches terminados se descargan en Releases.
 
 ## Créditos
 
